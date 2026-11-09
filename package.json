@@ -1,0 +1,30 @@
+{
+  "name": "klapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "express-session": "^1.17.0",
+    "fs": "0.0.1-security",
+    "mongoose-relationship": "^0.1.5",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.2"
+  },
+  "devDependencies": {
+    "admin-bro": "^1.4.0",
+    "admin-bro-expressjs": "^0.3.0",
+    "admin-bro-mongoose": "^0.3.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
